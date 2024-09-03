@@ -1,0 +1,82 @@
+body {
+    background-color: #ECEFF2;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 626px;
+    align-items: center;
+    text-align: center;
+}
+
+#imagem {
+    align-items: center;
+    padding-left: 85px;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: "Dosis", sans-serif;
+    color: #3F3D56;
+}
+
+.pink {
+    color: #EE24FF;
+}
+
+.bold {
+    color: #3F3D56;
+    font-weight: bold;
+}
+
+p {
+    color: #828282;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#line {
+    width: 392px;
+    height: 0px;
+    border: 1px solid #d5dadfb7;
+    margin: 0 auto 16px;
+}
+
+.buttons {
+    border: none;
+    background-color: transparent;
+    color: #3F3D56;
+    font-size: 20px;
+    padding-left: 90px;
+    margin-top: 45px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    color: #828282;
+}
+
+/*.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}*/
+
+.wave {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+    width: 100%;
+}
